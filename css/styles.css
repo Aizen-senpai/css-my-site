@@ -1,0 +1,194 @@
+/* Top container styling. */
+body {
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+color: #40514E;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+
+/* 
+Notes:
+To convert px to rem:
+1rem = 16 px
+So, 40px = 40/16 = 2.5rem
+*/
+h1 {
+    /* Notes */
+    /* margin-top: 50px; */
+    /* Alternative to margin-top: 50px; */
+    /* 
+    For the margin property you can specify 
+    the top, right bottom and left 
+    eg.margin: top right bottom left 
+    */
+    line-height: 2;
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #002B5B
+   
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #002B5B;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #002B5B;
+  text-align: left;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #E4DCCF 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 70px auto;
+}
+
+.top-container {
+  background-color: #EA5455;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* Middle container styling. */
+.middle-container {
+  background-color: #F9F5EB;
+  padding: 100px 0 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/* Only use float for wrapping text around an image. */
+/* My Skills. */
+.web-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.app-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.repair-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  /* margin: auto; will centre the image. */
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /* line-height: 2; */
+}
+
+/* Let's Connect. */
+.contact-me {
+  text-align: center;
+}
+
+.h3-consult {
+  text-align: center;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+/* Contact me button styling. */
+.btn {
+  background: #002B5B;
+  background-image: -webkit-linear-gradient(top, #002B5B, #042a2b);
+  background-image: -moz-linear-gradient(top, #002B5B, #042a2b);
+  background-image: -ms-linear-gradient(top, #002B5B, #042a2b);
+  background-image: -o-linear-gradient(top, #002B5B, #042a2b);
+  background-image: linear-gradient(to bottom, #002B5B, #042a2b);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1e6ca8;
+  background-image: -webkit-linear-gradient(top, #1e6ca8, #168270);
+  background-image: -moz-linear-gradient(top, #1e6ca8, #168270);
+  background-image: -ms-linear-gradient(top, #1e6ca8, #168270);
+  background-image: -o-linear-gradient(top, #1e6ca8, #168270);
+  background-image: linear-gradient(to bottom, #1e6ca8, #168270);
+  text-decoration: none;
+}
+
+/* Bottom container styling */
+.bottom-container {
+  background-color: #002B5B;
+  color: #E4DCCF;
+  padding: 50px 0 20px 0;
+}
+
+.footer-link {
+  color: #E4DCCF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+.footer-link:hover {
+  color: #19A7CE;
+}
+
+.copyright {
+  color: #E4DCCF;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.credits {
+  color: #E4DCCF;
+  font-family: 'Montserrat', sans-serif;
+}
+.credits:hover {
+  color: #19A7CE;
+}
+
+
+
+
+
+
+
+
